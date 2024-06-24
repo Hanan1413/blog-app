@@ -2,7 +2,6 @@ import "./App.css";
 import Hero from "./components/Hero/Hero/Hero";
 import PostsGrpup from "./pages/posts/PostsGrpup";
 import HomePage from "./pages/home/HomePage";
-import Contact from "./pages/contact/contact";
 import About from "./pages/about/About";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ArticlePage from "./components/article/ArticlePage";
