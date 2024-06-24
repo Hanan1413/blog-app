@@ -1,8 +1,33 @@
-# React + Vite
+# React.js Blog App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![App Screenshot](./src/assets/blog-min.PNG)
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A simple blog application built with React.js and Firebase as the backend. to view blog posts.
+
+## Table of Contents
+
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+
+## Features
+
+- Responsive Navbar
+- Fetch data from firbase
+- Display Blog Posts
+- View Single Post
+
+## Technologies Used
+
+- React.js
+- Firebase (Firestore for database)
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/react-blog-app.git
+   ```

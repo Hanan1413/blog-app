@@ -6,7 +6,7 @@ function Hero() {
     <div className="hero">
       <div className="hero-image">
         <div className="hero-text">
-          <h1>Tech related articles</h1>
+          <h2>Tech related articles</h2>
         </div>
       </div>
     </div>

@@ -17,13 +17,17 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: #c1d2ec;
-  font-size: 1.5rem;
+ 
   width: 100%;
 }
 
+.hero-text h2{
+  font-size: 2.5rem;
+  font-weight: 500;
+}
 @media only screen and (min-width: 1000px) {
   .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.5)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.781)),
       url("../../../assets/codingfirst.jpg");
     height: 70vh;
     width: 70%;
@@ -34,8 +38,13 @@
     margin: 0 auto;
   }
 
+  .hero-text h2{
+    font-size: 4rem;
+
+  }
+
   .hero-text {
     top: 50%;
-    font-size: 2rem;
+    font-size: 5rem;
   }
 }
