@@ -17,7 +17,6 @@ function BlogProvider({ children }) {
 
   // handle Article on click
   const handleArticleClick = (article) => {
-    // كانت هنا المشكلة
     setSelectedArticle(article);
   };
 
@@ -32,7 +31,6 @@ function BlogProvider({ children }) {
     const getArticles = async () => {
       const data = await getDocs(articlesCollectionRef);
       // make query to collection
-      console.log(data);
       setIsLoading(false);
       setArticles(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
     };
