@@ -3,6 +3,7 @@ import Hero from "./components/Hero/Hero/Hero";
 import PostsGrpup from "./pages/posts/PostsGrpup";
 import HomePage from "./pages/home/HomePage";
 import About from "./pages/about/About";
+import Contact from "./pages/contact/Contact";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ArticlePage from "./components/article/ArticlePage";
 import Footer from "./components/footer/Footer";
@@ -23,9 +24,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
       </Routes>
-    <Footer />
+      <Footer />
     </div>
-
   );
 }
 
