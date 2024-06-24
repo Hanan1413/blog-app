@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Inter+Tight:ital,wght@1,300&family=Inter:wght@200;400&display=swap");
+
+
+:root{
+  --primary-color: #2f323d;
+
+
+}
+body {
+  background-color: #ededed !important;
+  font-family: Inter, sans-serif !important;
+  margin: 0; 
+  padding:0; 
+}
+
+a {
+  text-decoration: none !important;
+}
+ul {
+  list-style: none;
+}
+
+/* .container {
+  max-width: 1300px;
+  margin: 0 auto;
+  /* padding: 0 15px; */
+
+
+
+.headline{
+  color: var(--primary-color)
+}

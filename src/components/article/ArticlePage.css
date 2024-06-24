@@ -1,0 +1,57 @@
+.article{
+    color: black;
+    height: 70vh;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    text-align: left;
+    line-height: 1.5rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0 2rem;
+    gap: 30px;
+}
+
+
+
+
+.btn-back {
+    background:none;
+    color: #1f1f1f;
+    border: none;
+    cursor: pointer;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+
+
+}
+
+.back-icon{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 10rem;
+    padding: 10px 10px; 
+    transition: background-color 0.3s, border-radius 0.3s;
+
+
+
+} 
+
+.back-icon:hover{
+    background: #8390a559;
+        border-radius: 50px;
+
+
+}
+
+@media (min-width: 640px){
+.article{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+}

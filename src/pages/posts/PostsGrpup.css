@@ -1,0 +1,26 @@
+.posts {
+
+  height: 100%;
+  margin-top: 100px;
+}
+
+
+.post-container{
+  margin-top: 150px;
+}
+@media only screen and (min-width: 600px) {
+  .posts {
+    padding-bottom: 50px;
+
+  
+  
+
+
+  }
+  
+}
+.home-posts{
+
+  width: 100%;
+
+}

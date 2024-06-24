@@ -1,0 +1,34 @@
+.headline {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 60px;
+  color: #2f394b;
+}
+
+.summery {
+  text-align: center;
+  text-align: justify;
+
+  font-size: 1.2rem;
+  line-height: 35px;
+  margin-top: 60px;
+  color: #2f323d;
+  padding: 0 30px;
+}
+
+@media only screen and (min-width: 600px) {
+  .headline {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 100px;
+    color: #2f394b;
+  }
+  .summery {
+    text-align: left;
+    font-size: 1.5rem;
+    line-height: 35px;
+    margin-top: 60px;
+    color: #2f323dc5;
+    padding: 0 30px;
+  }
+}
