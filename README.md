@@ -4,7 +4,7 @@
 
 ## Overview
 
-A simple blog application built with React.js and Firebase as the backend. to view blog posts.
+A simple blog application built with React.js and Firebase as the backend, to view blog posts.
 
 ## Table of Contents
 
